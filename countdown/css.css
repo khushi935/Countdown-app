@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(snow.jpg);
+   background-size:cover ;
+    background-position: center center;
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+}
+.big-text{
+font-size: 6rem;
+line-height: 1;
+margin:2rem 3rem
+}
+.conta{
+    text-align: center;
+}
